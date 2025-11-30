@@ -1,0 +1,44 @@
+[
+  {
+    "id": "q1-delayed-order",
+    "query": "My order was supposed to arrive 4 days ago with standard shipping but it is still not here. What can you do?",
+    "baseline": {
+      "error": null,
+      "latency_sec": 3.0111687183380127,
+      "reply": "I am so sorry to hear about the delay! That is frustrating.\n\nTo check the exact status of your shipment and see what we can do, could you please provide your order number? I will look it up right away."
+    },
+    "rag": {
+      "error": null,
+      "latency_sec": 6.338956594467163,
+      "reply": "I am very sorry to hear your order is delayed.\n\nSince your order has not arrived 3 days after the maximum estimated delivery date, it is officially considered delayed.\n\nTo resolve this, we will immediately verify the tracking information with the carrier and provide you with an updated delivery estimate. Depending on the situation, we may also be able to offer a goodwill gesture, such as a discount on a future order or free express shipping on your next order.\n\nPlease provide your order number so we can look into the tracking details right away!"
+    }
+  },
+  {
+    "id": "q2-return-policy",
+    "query": "I bought shoes 20 days ago, unused and in original packaging. Can I still return them and get a full refund?",
+    "baseline": {
+      "error": null,
+      "latency_sec": 3.108258008956909,
+      "reply": "That sounds great! Yes, 20 days is typically within our standard return window. Since the shoes are unused and in the original packaging, you are eligible for a full refund.\n\nPlease visit our Returns Center on the website to start the process!"
+    },
+    "rag": {
+      "error": null,
+      "latency_sec": 2.969808340072632,
+      "reply": "Yes, absolutely! Since it has only been 20 days, you are still within the 30-day return window.\n\nBecause the shoes are unused and in their original packaging, they should be considered in resellable condition, and you will generally receive a full refund."
+    }
+  },
+  {
+    "id": "q3-account-security",
+    "query": "I just got a login alert I don't recognize. How do I secure my account?",
+    "baseline": {
+      "error": null,
+      "latency_sec": 2.74766206741333,
+      "reply": "I'm happy to help you secure your account! Dealing with unfamiliar alerts can be worrying.\n\nTo secure your account quickly, please do the following:\n\n1.  **Change your password immediately** to a strong, unique one.\n2.  **Enable Two-Factor Authentication (2FA)** in your security settings if it isn't already active.\n3.  Review your account details (email and shipping addresses) to ensure no unauthorized changes were made.\n\nIf you have any trouble, please let me know!"
+    },
+    "rag": {
+      "error": null,
+      "latency_sec": 3.4337055683135986,
+      "reply": "I understand that's concerning. Since you reported a login notification you do not recognize, the most important thing is to **change your password immediately**.\n\nWe should also confirm if there are any recent orders or changes to your account details that you did not make."
+    }
+  }
+]

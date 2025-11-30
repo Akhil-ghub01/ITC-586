@@ -1,0 +1,17 @@
+[
+  {
+    "id": "q1-delayed-order",
+    "query": "My order was supposed to arrive 4 days ago with standard shipping but it is still not here. What can you do?",
+    "ideal_answer_notes": "Recognize it's delayed; mention standard shipping 3–5 business days, explain checking tracking, and mention goodwill gesture such as discount or free express shipping next time."
+  },
+  {
+    "id": "q2-return-policy",
+    "query": "I bought shoes 20 days ago, unused and in original packaging. Can I still return them and get a full refund?",
+    "ideal_answer_notes": "Yes within 30 days, full refund if unused and in original packaging. Mention who pays return shipping based on reason."
+  },
+  {
+    "id": "q3-account-security",
+    "query": "I just got a login alert I don't recognize. How do I secure my account?",
+    "ideal_answer_notes": "Change password immediately, check recent activity/orders, possibly enable 2FA, and contact support if suspicious."
+  }
+]
